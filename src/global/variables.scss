@@ -1,0 +1,92 @@
+$main-white: #ffffff;
+$blue: #2196F3;
+$hover-blue: #82B1FF;
+
+$nav-width: 1024px;
+$content-width: 985px;
+$main-height: 800px;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto', 'Nanum Gothic Coding', 'Nanum Gothic', sans-serif, serif;
+  height: 100%;
+  width: 100%;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video  {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
