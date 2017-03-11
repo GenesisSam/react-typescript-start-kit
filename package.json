@@ -4,8 +4,8 @@
   "description": "This is useful start kit for Typescript, React, Sass, Redux, Material-ui, Webpack2, immutable",
   "main": "src/App.tsx",
   "scripts": {
-    "build:prod": "npm install && rm -rf dist/ && ENV_NODE=production webpack -p --config webpack.prod.config.js --progress --colors",
-    "start": "npm run build:prod && node ./server/app.js",
+    "build:pre": "npm install && rm -rf dist/",
+    "build:prod": "npm run build:pre && ENV_NODE=production webpack -p --config webpack.prod.config.js --progress --colors",
     "dev": "webpack-dev-server --content-base src/ --hot --progress --colors --host 0.0.0.0 --port 8080"
   },
   "author": "GenesisSam",
